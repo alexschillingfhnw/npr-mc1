@@ -5,8 +5,8 @@ This repository contains the code and resources for Mini-Challenge 1 of the Natu
 ## Table of Contents
 - [Overview](#overview)
 - [Project Structure](#project-structure)
+- [Dara](#data)
 - [Installation](#installation)
-- [Usage](#usage)
 
 ## Overview
 
