@@ -6,3 +6,5 @@ __pycache__/
 /src/credentials.py
 
 .DS_Store
+
+/embeddings
