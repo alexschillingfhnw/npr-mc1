@@ -34,25 +34,26 @@ RAG is a technique that enhances the response quality of LLMs by incorporating e
 │   ├── raw                  # Raw data from the cleantech corpus
 │   ├── processed            # Processed and cleaned data for chunking and rag system
 │   └── evaluation           # Evaluation data with gold-standard answers
+│   └── experiments          # csv files containing evaluation-, retrieved-, generated- and metric data for each experiment (different chunking strategy, embedding model)
 ├── docs                     # Documentation files
-├── src                      # Source code files for each RAG component
+├── src                      # Source code files for the RAG-system
 ├── .gitignore
 └── README.md
 ```
 
 ## Data
-- **Source:** The cleantech media corpus (10,000 articles) is available on Kaggle.
-- **Evaluation Data:** Human-provided query-passage-answer triplets, used for assessing response quality.
+- **Source:** The cleantech media corpus (10'000 articles) is available on [Kaggle](https://www.kaggle.com/datasets/jannalipenkova/cleantech-media-dataset).
+- **Evaluation Data:** Human-provided query-relevant text-answer triplets, used for assessing response quality.
 
 ## Installation
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/projectname.git
+   git clone https://github.com/alexschillingfhnw/npr-mc1.git
    ```
 2. **Navigate to the project directory:**
    ```bash
-   cd projectname
+   cd npr-mc1
    ```
 3. **Install dependencies** (if a requirements file exists):
    ```bash
